@@ -1,0 +1,163 @@
+:root {
+  --primary-color: #606c38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar-scrolled {
+  background-color: black;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner-image {
+  background-image: url("img/hero.png");
+  background-size: cover;
+}
+
+.banner-produk {
+  background-image: url("img/hero-produk.png");
+  background-size: cover;
+  height: 500px;
+}
+
+.content {
+  padding-top: 200px;
+}
+
+.hero-produk {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.hero-content {
+  max-width: 750px;
+  color: white;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.hero-deskripsi {
+  margin-top: 24px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 650px;
+}
+
+.about {
+  margin-left: 50px;
+}
+
+.about-deskripsi {
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.judul-produk {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.produk-1 {
+  height: 400px;
+  background-image: url("img/produk-1.jpg");
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.produk-2 {
+  height: 400px;
+  background-image: url("img/produk-2.png");
+  background-size: cover;
+  border-radius: 16px;
+}
+.produk-3 {
+  height: 400px;
+  background-image: url("img/produk-3.jpg");
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.jenis-produk {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.service {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding: 30px;
+  border-radius: 16px;
+  border: 3px solid #606c38;
+}
+
+.iklan {
+  display: flex;
+  justify-content: space-between;
+  background-color: #606c38;
+  border-radius: 16px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.deskripsi-iklan {
+  max-width: 400px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #e9ecef;
+}
+
+.logo-footer {
+  max-width: 275px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 150px;
+  gap: 120px;
+}
