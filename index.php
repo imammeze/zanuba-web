@@ -12,7 +12,7 @@
         </p>
         <div class="flex mt-5">
             <a href="" class="btn btn-success py-2 px-4 fw-bold">Pesan Sekarang</a>
-            <a href="" class="btn btn-outline-success py-2 px-4 fw-bold ms-3">Lihat Menu</a>
+            <a href="produk.php" class="btn btn-outline-success py-2 px-4 fw-bold ms-3">Lihat Menu</a>
         </div>
     </div>
 </div>
@@ -65,7 +65,7 @@
             </div>
         </div>
     </div>
-    <a href="" class="btn btn-success mt-5 px-5 py-2">Lihat Detail</a>
+    <a href="produk.php" class="btn btn-success mt-5 px-5 py-2">Lihat Detail</a>
 </div>
 
 <!-- Service -->
