@@ -4,9 +4,15 @@
     --primary: #ff4351;
 }
 
+<<<<<<< HEAD
 main {
     margin-top: 100px;
 }
+=======
+    main {
+        margin-top: 100px;
+    }
+>>>>>>> bc226eea62e4135c0535485288f7387d33970982
 
 .logo {
     width: 100px;
@@ -51,20 +57,33 @@ form {
     session_start();
 
     if (isset($_POST['login'])) {
+<<<<<<< HEAD
         $query = "select * from users where username='".$_POST['username']."'
     and password='".$_POST['password']."'";
+=======
+        $query = "select * from users where username='" . $_POST['username'] . "'
+    and password='" . $_POST['password'] . "'";
+>>>>>>> bc226eea62e4135c0535485288f7387d33970982
         $data = mysqli_query($koneksi, $query);
 
         if ($r = mysqli_fetch_array($data)) {
             $_SESSION['iduser'] = $r['iduser'];
             $_SESSION['username'] = $r['username'];
+<<<<<<< HEAD
             
+=======
+            $_SESSION['password'] = $r['password'];
+
+>>>>>>> bc226eea62e4135c0535485288f7387d33970982
             header('Location: admin/index.php');
             exit();
         } else {
             echo "<script>alert('Username atau Password Salah!')</script>";
         }
+<<<<<<< HEAD
         
+=======
+>>>>>>> bc226eea62e4135c0535485288f7387d33970982
     }
     ?>
 
@@ -83,4 +102,7 @@ form {
             </form>
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>

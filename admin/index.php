@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php if (empty($_SESSION['username'])) {
     header('location:../login.php');
     exit();
 }?>
 
+=======
+>>>>>>> bc226eea62e4135c0535485288f7387d33970982
 <!DOCTYPE html>
 <html lang="en">
 
