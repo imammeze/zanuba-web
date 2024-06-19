@@ -14,12 +14,13 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/responsive.css" />
     <title>Zanuba</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg bg-transparent">
+    <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img width="100" src="assets/img/logo.png" alt="Logo" />
@@ -33,7 +34,7 @@
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav me-0 mb-2 mb-lg-0 px-5 d-flex gap-4">
                     <li class="nav-item">
-                        <a class="nav-link text-white fw-bold" href="#">Tentang</a>
+                        <a class="nav-link text-white fw-bold" href="#about">Tentang</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white fw-bold" href="#">Produk</a>

@@ -1,5 +1,6 @@
 <?php if (empty($_SESSION['username'])) {
     header('location:../login.php');
+    exit();
 }?>
 
 <!DOCTYPE html>
@@ -23,7 +24,8 @@
 
     <!-- Sidebar Start -->
     <div class="d-flex">
-        <div class="d-flex flex-column flex-shrink-0 p-3 text-white" style="width: 280px; height: 100vh; background-color: #F8B88B">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white"
+            style="width: 280px; height: 100vh; background-color: #F8B88B">
             <a href="/" class="d-flex align-items-center justify-content-center height-100%">
                 <img width="150" src="../assets/img/logo.png" alt="Logo" />
             </a>
