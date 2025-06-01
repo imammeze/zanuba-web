@@ -12,7 +12,7 @@
     margin-top: 100px;
 }
 
->>>>>>>bc226eea62e4135c0535485288f7387d33970982 .logo {
+.logo {
     width: 100px;
 }
 
