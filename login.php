@@ -4,11 +4,11 @@
     --primary: #ff4351;
 }
 
-<<<<<<< HEAD main {
+main {
     margin-top: 100px;
 }
 
-=======main {
+main {
     margin-top: 100px;
 }
 
